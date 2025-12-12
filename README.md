@@ -1,9 +1,11 @@
 # RetentionAI: Customer Churn Prediction & Explainability
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-Interactive_App-red)
-![CatBoost](https://img.shields.io/badge/Model-CatBoost-green)
-![SHAP](https://img.shields.io/badge/XAI-SHAP-orange)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue" />
+  <img src="https://img.shields.io/badge/Streamlit-Interactive_App-red" />
+  <img src="https://img.shields.io/badge/Model-CatBoost-green" />
+  <img src="https://img.shields.io/badge/XAI-SHAP-orange" />
+</p>
 
 ## Project Overview
 **RetentionAI** is an end-to-end Machine Learning application designed to predict customer churn in the telecommunications industry. Unlike traditional black-box models, this project prioritizes **Explainable AI (XAI)** to provide actionable insights into *why* a customer is at risk.
@@ -16,17 +18,26 @@ The application allows business users to input customer data interactively and r
 
 ### 1. Interactive Dashboard (Streamlit)
 Real-time risk analysis interface for marketing teams.
-![App Demo](images/app_demo.png)
+
+<p align="center">
+  <img src="images/app_demo.png" alt="App Demo" width="800"/>
+</p>
 
 ### 2. Local Explanation (SHAP Waterfall)
 Mathematical proof of **why** a specific customer is predicted to churn.
 *(Red bars indicate factors increasing risk; Blue bars indicate factors decreasing risk.)*
-![SHAP Waterfall](images/shap_waterfall.png)
+
+<p align="center">
+  <img src="images/shap_waterfall.png" alt="SHAP Waterfall" width="700"/>
+</p>
 
 ### 3. Global Risk Factors (SHAP Summary)
 Analysis of the most important drivers of churn across the entire customer base.
 *(High values of 'Monthly Charges' and 'Month-to-month Contract' are strong indicators of churn.)*
-![SHAP Summary](images/shap_summary.png)
+
+<p align="center">
+  <img src="images/shap_summary.png" alt="SHAP Summary" width="600"/>
+</p>
 
 ## Business Problem
 Acquiring a new customer is **5-25x more expensive** than retaining an existing one. The goal of this project is to:
