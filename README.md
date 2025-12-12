@@ -71,8 +71,8 @@ To run this project locally:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/sevvallaydogann/RetentionAI.git
-    cd RetentionAI
+    git clone https://github.com/sevvallaydogann/Retention-AI
+    cd Retention-AI
     ```
 
 2.  **Install dependencies:**
